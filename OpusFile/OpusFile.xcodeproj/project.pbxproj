@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9581366517F6D764003DC5FB /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C8759F17F6D6EA00F6C878 /* libogg.a */; };
-		9581366617F6D764003DC5FB /* libopus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C875A217F6D6EA00F6C878 /* libopus.a */; };
 		95C8737317F6C89900F6C878 /* opusfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 95C8737217F6C89900F6C878 /* opusfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95C8737C17F6C8A400F6C878 /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = 95C8737517F6C8A400F6C878 /* http.c */; };
 		95C8737D17F6C8A400F6C878 /* info.c in Sources */ = {isa = PBXBuildFile; fileRef = 95C8737617F6C8A400F6C878 /* info.c */; };
@@ -38,12 +37,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9581366117F6D75E003DC5FB /* PBXContainerItemProxy */ = {
+		0BD23BDF1CEE1BFC00ED9EA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 95C873B217F6CD0900F6C878 /* Opus.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 95C873F717F6D2B200F6C878;
-			remoteInfo = opus;
+			proxyType = 2;
+			remoteGlobalIDString = 8B8690F318710A4500F7B10F;
+			remoteInfo = libopus;
+		};
+		0BD23BE11CEE1BFC00ED9EA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C873B217F6CD0900F6C878 /* Opus.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B26D9B5187230B8008020B5;
+			remoteInfo = "Opus Tests";
 		};
 		9581366317F6D75E003DC5FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -70,7 +76,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 95C873B217F6CD0900F6C878 /* Opus.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 95C86EBB17F6BCBD00F6C878;
+			remoteGlobalIDString = 0BD23B081CEE12CF00ED9EA9;
 			remoteInfo = Opus;
 		};
 		95C873BD17F6CD1300F6C878 /* PBXContainerItemProxy */ = {
@@ -87,26 +93,12 @@
 			remoteGlobalIDString = 95C873C917F6D18300F6C878;
 			remoteInfo = ogg;
 		};
-		95C875A117F6D6EA00F6C878 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 95C873B217F6CD0900F6C878 /* Opus.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 95C873F817F6D2B200F6C878;
-			remoteInfo = opus;
-		};
 		95F27FC517F6E025009E13C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 95C873AC17F6CD0400F6C878 /* Ogg.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 95F27DC417F6DD93009E13C6;
 			remoteInfo = Ogg_ios;
-		};
-		95F27FC817F6E025009E13C6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 95C873B217F6CD0900F6C878 /* Opus.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 95F27DF517F6DEA0009E13C6;
-			remoteInfo = Opus_ios;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -155,7 +147,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9581366517F6D764003DC5FB /* libogg.a in Frameworks */,
-				9581366617F6D764003DC5FB /* libopus.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +205,7 @@
 				95C8737217F6C89900F6C878 /* opusfile.h */,
 			);
 			name = include;
-			path = "../../libopusfile-src/include";
+			path = ../sources/include;
 			sourceTree = "<group>";
 		};
 		95C8737417F6C8A400F6C878 /* src */ = {
@@ -229,7 +220,7 @@
 				95C8737B17F6C8A400F6C878 /* wincerts.c */,
 			);
 			name = src;
-			path = "../../libopusfile-src/src";
+			path = ../sources/src;
 			sourceTree = "<group>";
 		};
 		95C873AD17F6CD0400F6C878 /* Products */ = {
@@ -245,9 +236,9 @@
 		95C873B317F6CD0900F6C878 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				0BD23BE01CEE1BFC00ED9EA9 /* libopus.a */,
+				0BD23BE21CEE1BFC00ED9EA9 /* Opus Tests.xctest */,
 				95C873BA17F6CD0900F6C878 /* Opus.framework */,
-				95C875A217F6D6EA00F6C878 /* libopus.a */,
-				95F27FC917F6E025009E13C6 /* Opus.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -317,7 +308,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				9581366217F6D75E003DC5FB /* PBXTargetDependency */,
 				9581366417F6D75E003DC5FB /* PBXTargetDependency */,
 			);
 			name = opusfile;
@@ -385,6 +375,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		0BD23BE01CEE1BFC00ED9EA9 /* libopus.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libopus.a;
+			remoteRef = 0BD23BDF1CEE1BFC00ED9EA9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0BD23BE21CEE1BFC00ED9EA9 /* Opus Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Opus Tests.xctest";
+			remoteRef = 0BD23BE11CEE1BFC00ED9EA9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		95C873B117F6CD0400F6C878 /* Ogg.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -406,25 +410,11 @@
 			remoteRef = 95C8759E17F6D6EA00F6C878 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		95C875A217F6D6EA00F6C878 /* libopus.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libopus.a;
-			remoteRef = 95C875A117F6D6EA00F6C878 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		95F27FC617F6E025009E13C6 /* Ogg.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = Ogg.framework;
 			remoteRef = 95F27FC517F6E025009E13C6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		95F27FC917F6E025009E13C6 /* Opus.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = Opus.framework;
-			remoteRef = 95F27FC817F6E025009E13C6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -531,11 +521,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9581366217F6D75E003DC5FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = opus;
-			targetProxy = 9581366117F6D75E003DC5FB /* PBXContainerItemProxy */;
-		};
 		9581366417F6D75E003DC5FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ogg;
@@ -821,6 +806,7 @@
 				95F27FC117F6E025009E13C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
