@@ -36,10 +36,10 @@
 /* Begin PBXFileReference section */
 		95C8730117F6C7CA00F6C878 /* Ogg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ogg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95C8730C17F6C7CA00F6C878 /* Ogg-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ogg-Info.plist"; sourceTree = "<group>"; };
-		95C8733017F6C81200F6C878 /* ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ogg.h; path = "../../libogg-src/include/ogg/ogg.h"; sourceTree = "<group>"; };
-		95C8733117F6C81200F6C878 /* os_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = os_types.h; path = "../../libogg-src/include/ogg/os_types.h"; sourceTree = "<group>"; };
-		95C8733517F6C82B00F6C878 /* bitwise.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bitwise.c; path = "../../libogg-src/src/bitwise.c"; sourceTree = "<group>"; };
-		95C8733617F6C82B00F6C878 /* framing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = framing.c; path = "../../libogg-src/src/framing.c"; sourceTree = "<group>"; };
+		95C8733017F6C81200F6C878 /* ogg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ogg.h; path = ogg/ogg.h; sourceTree = "<group>"; };
+		95C8733117F6C81200F6C878 /* os_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = os_types.h; path = ogg/os_types.h; sourceTree = "<group>"; };
+		95C8733517F6C82B00F6C878 /* bitwise.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bitwise.c; path = ../sources/src/bitwise.c; sourceTree = "<group>"; };
+		95C8733617F6C82B00F6C878 /* framing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = framing.c; path = ../sources/src/framing.c; sourceTree = "<group>"; };
 		95C873C917F6D18300F6C878 /* libogg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libogg.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F27DC417F6DD93009E13C6 /* Ogg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ogg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F27DC717F6DD93009E13C6 /* Ogg_ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Ogg_ios-Info.plist"; path = "Ogg_ios/Ogg_ios-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -114,6 +114,7 @@
 				95C8733117F6C81200F6C878 /* os_types.h */,
 			);
 			name = include;
+			path = ../sources/include;
 			sourceTree = "<group>";
 		};
 		95C8733417F6C82100F6C878 /* src */ = {
@@ -412,6 +413,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				INFOPLIST_FILE = "Ogg/Ogg-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.xiph.ogg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
@@ -429,6 +431,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				INFOPLIST_FILE = "Ogg/Ogg-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.xiph.ogg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
@@ -566,6 +569,7 @@
 				95F27DE417F6DD93009E13C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
