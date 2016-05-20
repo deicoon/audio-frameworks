@@ -1,7 +1,5 @@
 MacOS/iOS static frameworks and libraries:
 * FLAC
-* TagLib,
-* CyberlinkUPNP
 * Ogg
 * Opus
 * OpusFile
@@ -35,14 +33,7 @@ ln -s ../../include/share  ./src/flac/share
 Credits
 -------
 
-Frameworks official pages:
-
-- https://github.com/cybergarage/CyberLink4C
-- http://taglib.github.com/
-- http://flac.sourceforge.net/
-- http://xiph.org/ogg/
-- https://github.com/kstenerud/iOS-Universal-Framework
-- http://opus-codec.org
+All code here is Xiph.org's. I only created the Xcode files.
 
 License
 -------
