@@ -42,7 +42,7 @@
 		95C8733617F6C82B00F6C878 /* framing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = framing.c; path = ../sources/src/framing.c; sourceTree = "<group>"; };
 		95C873C917F6D18300F6C878 /* libogg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libogg.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		95F27DC417F6DD93009E13C6 /* Ogg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ogg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		95F27DC717F6DD93009E13C6 /* Ogg_ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Ogg_ios-Info.plist"; path = "Ogg_ios/Ogg_ios-Info.plist"; sourceTree = SOURCE_ROOT; };
+		95F27DC717F6DD93009E13C6 /* Ogg_ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Ogg_ios-Info.plist"; path = "Ogg/Ogg_ios-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

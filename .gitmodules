@@ -13,3 +13,6 @@
 [submodule "OpusFile/sources"]
 	path = OpusFile/sources
 	url = https://git.xiph.org/opusfile.git
+[submodule "FLAC/sources"]
+	path = FLAC/sources
+	url = https://git.xiph.org/flac.git
