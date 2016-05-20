@@ -904,7 +904,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0440;
-				ORGANIZATIONNAME = sbooth.org;
+				ORGANIZATIONNAME = Xiph.org;
 			};
 			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "flac" */;
 			compatibilityVersion = "Xcode 3.2";
