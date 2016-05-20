@@ -1,8 +1,8 @@
 [submodule "cyberlink-src"]
 	path = cyberlink-src
 	url = git://github.com/cybergarage/CyberLink4C.git
-[submodule "taglib-src"]
-	path = taglib-src
+[submodule "TagLib/sources"]
+	path = TagLib/sources
 	url = git://github.com/taglib/taglib.git
 [submodule "Opus/sources"]
 	path = Opus/sources
