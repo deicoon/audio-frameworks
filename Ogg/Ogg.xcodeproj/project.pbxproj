@@ -223,7 +223,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = "Arthur Evstifeev";
+				ORGANIZATIONNAME = Xiph.org;
 			};
 			buildConfigurationList = 95C872FB17F6C7CA00F6C878 /* Build configuration list for PBXProject "Ogg" */;
 			compatibilityVersion = "Xcode 3.2";
