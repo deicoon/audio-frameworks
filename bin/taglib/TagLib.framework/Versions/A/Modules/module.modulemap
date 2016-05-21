@@ -1,0 +1,6 @@
+framework module TagLib {
+  umbrella header "TagLib.h"
+
+  export *
+  module * { export * }
+}

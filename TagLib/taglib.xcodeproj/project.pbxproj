@@ -6,6 +6,21 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		0B2CAABC1CF0623B00ABFC95 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0B2CAABD1CF0623B00ABFC95 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				0B2CAAC41CF0624E00ABFC95 /* ShellScript */,
+			);
+			dependencies = (
+				0B2CAAC31CF0624200ABFC95 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		02C0CC8876A9480D9F2523EC /* vorbisproperties.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 261D8093632F45B49AF8BD21 /* vorbisproperties.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		03C367850649477CA4DC20BE /* tag_c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A71D5EC3248C42B78D8B0E18 /* tag_c.cpp */; settings = {COMPILER_FLAGS = ""; }; };
@@ -319,6 +334,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0B2CAAC21CF0624200ABFC95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FA2C3248ACC48C68D98866C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B2CA9E11CF0596000ABFC95;
+			remoteInfo = TagLib;
+		};
 		BE80491F227645C18EC9D587 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8FA2C3248ACC48C68D98866C /* Project object */;
@@ -337,6 +359,7 @@
 		08226E691023479B9DBCEE0A /* popularimeterframe.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = popularimeterframe.cpp; path = taglib/mpeg/id3v2/frames/popularimeterframe.cpp; sourceTree = SOURCE_ROOT; };
 		0B2CA9E21CF0596000ABFC95 /* TagLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TagLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B2CA9E61CF0596000ABFC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2CAAC51CF0B75F00ABFC95 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		0BBDF74C45A3491EACC98E52 /* mpegproperties.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mpegproperties.h; path = taglib/mpeg/mpegproperties.h; sourceTree = SOURCE_ROOT; };
 		0DA1AB4D85FB42A291398E3D /* id3v2frame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = id3v2frame.cpp; path = taglib/mpeg/id3v2/id3v2frame.cpp; sourceTree = SOURCE_ROOT; };
 		10FEED44E9E14BBF8473E124 /* xmfile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmfile.h; path = taglib/xm/xmfile.h; sourceTree = SOURCE_ROOT; };
@@ -687,6 +710,7 @@
 		46A208BBE5FA44A580F314F9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				0B2CAAC51CF0B75F00ABFC95 /* CMakeLists.txt */,
 				7B2B5265C9854F208389008D /* Source Files */,
 				0C76F16B238E49159D1C2A21 /* Header Files */,
 				E6179BAA89F44594A6136FFB /* CMakeLists.txt */,
@@ -1018,6 +1042,9 @@
 					0B2CA9E11CF0596000ABFC95 = {
 						CreatedOnToolsVersion = 7.3;
 					};
+					0B2CAABC1CF0623B00ABFC95 = {
+						CreatedOnToolsVersion = 7.3;
+					};
 				};
 			};
 			buildConfigurationList = 153E95D4EB574DB793B6484C /* Build configuration list for PBXProject "taglib" */;
@@ -1034,6 +1061,7 @@
 				1E6EEBFF1D6B4796BA02E507 /* tag */,
 				9D0645318DDD4B4DB48F8840 /* tag_c */,
 				0B2CA9E11CF0596000ABFC95 /* TagLib */,
+				0B2CAABC1CF0623B00ABFC95 /* Framework */,
 			);
 		};
 /* End PBXProject section */
@@ -1047,6 +1075,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B2CAAC41CF0624E00ABFC95 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -rf \"../../bin/TagLib/TagLib.framework\"\ncp -af \"./build/$CONFIGURATION/TagLib.framework\" \"../../bin/TagLib/TagLib.framework\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0B2CA9DD1CF0596000ABFC95 /* Sources */ = {
@@ -1280,6 +1324,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0B2CAAC31CF0624200ABFC95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B2CA9E11CF0596000ABFC95 /* TagLib */;
+			targetProxy = 0B2CAAC21CF0624200ABFC95 /* PBXContainerItemProxy */;
+		};
 		839602BB92724351898B1E64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1E6EEBFF1D6B4796BA02E507 /* tag */;
@@ -1676,6 +1725,38 @@
 					"-Wno-unknown-pragmas",
 					"$(inherited)",
 				);
+			};
+			name = RelWithDebInfo;
+		};
+		0B2CAABE1CF0623B00ABFC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
+			};
+			name = Debug;
+		};
+		0B2CAABF1CF0623B00ABFC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
+			};
+			name = Release;
+		};
+		0B2CAAC01CF0623B00ABFC95 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
+			};
+			name = MinSizeRel;
+		};
+		0B2CAAC11CF0623B00ABFC95 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
 			};
 			name = RelWithDebInfo;
 		};
@@ -2187,6 +2268,18 @@
 				0B2CA9EA1CF0596000ABFC95 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0B2CAABD1CF0623B00ABFC95 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2CAABE1CF0623B00ABFC95 /* Debug */,
+				0B2CAABF1CF0623B00ABFC95 /* Release */,
+				0B2CAAC01CF0623B00ABFC95 /* MinSizeRel */,
+				0B2CAAC11CF0623B00ABFC95 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		153E95D4EB574DB793B6484C /* Build configuration list for PBXProject "taglib" */ = {
 			isa = XCConfigurationList;
