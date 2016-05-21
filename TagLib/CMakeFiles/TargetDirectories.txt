@@ -1,0 +1,6 @@
+/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/ZERO_CHECK.dir
+/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/docs.dir
+/Users/perfaram/Audio-Frameworks/TagLib/bindings/c/CMakeFiles/tag_c.dir
+/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/ALL_BUILD.dir
+/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/uninstall.dir
+/Users/perfaram/Audio-Frameworks/TagLib/taglib/CMakeFiles/tag.dir

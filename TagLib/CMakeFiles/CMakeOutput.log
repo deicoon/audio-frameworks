@@ -1,0 +1,1181 @@
+The system is: Darwin - 15.4.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+2016-05-21 08:49:56.953 xcodebuild[85943:1982934] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:49:56.955 xcodebuild[85943:1982934] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:49:56.956 xcodebuild[85943:1982934] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[85943]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[85943]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[85943]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[85943]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET CompilerIdC OF PROJECT CompilerIdC WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
+
+CompileC CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o CMakeCCompilerId.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CMakeCCompilerId.c -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o
+
+Ld CompilerIdC normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList -mmacosx-version-min=10.11 -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC
+
+PhaseScriptExecution Run\ Script CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC
+    /bin/sh -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+
+The C compiler identification is AppleClang, found in "/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+2016-05-21 08:49:57.830 xcodebuild[85964:1982998] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:49:57.832 xcodebuild[85964:1982998] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:49:57.833 xcodebuild[85964:1982998] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[85964]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[85964]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[85964]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[85964]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET CompilerIdCXX OF PROJECT CompilerIdCXX WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+
+CompileC CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o
+
+Ld CompilerIdCXX normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList -mmacosx-version-min=10.11 -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX
+
+PhaseScriptExecution Run\ Script CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX
+    /bin/sh -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+
+The CXX compiler identification is AppleClang, found in "/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_d5c4d" "-configuration" "Debug"
+2016-05-21 08:49:58.711 xcodebuild[85982:1983044] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:49:58.713 xcodebuild[85982:1983044] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:49:58.714 xcodebuild[85982:1983044] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[85982]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[85982]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[85982]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[85982]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_d5c4d OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d5c4d.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d5c4d.build/Objects-normal/x86_64/cmTC_d5c4d.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_d5c4d.build/Objects-normal/x86_64/testCCompiler.o testCCompiler.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d5c4d.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d5c4d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d5c4d.build/Objects-normal/x86_64/testCCompiler.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d5c4d.build/Objects-normal/x86_64/testCCompiler.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/testCCompiler.c -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d5c4d.build/Objects-normal/x86_64/testCCompiler.o
+
+Ld Debug/cmTC_d5c4d normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d5c4d.build/Objects-normal/x86_64/cmTC_d5c4d.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d5c4d.build/Objects-normal/x86_64/cmTC_d5c4d_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_d5c4d
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_2396a" "-configuration" "Debug"
+2016-05-21 08:49:59.554 xcodebuild[85998:1983088] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:49:59.555 xcodebuild[85998:1983088] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:49:59.556 xcodebuild[85998:1983088] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[85998]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[85998]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[85998]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[85998]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_2396a OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/cmTC_2396a.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/3.4.0/share/cmake/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/3.4.0/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/CMakeCCompilerABI.o
+
+Ld Debug/cmTC_2396a normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/cmTC_2396a.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/cmTC_2396a_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_2396a
+Apple LLVM version 7.3.0 (clang-703.0.29)
+Target: x86_64-apple-darwin15.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_2396a -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/cmTC_2396a.LinkFileList -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/cmTC_2396a_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-264.3.101
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib
+Framework search paths:
+	/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/
+
+** BUILD SUCCEEDED **
+
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_2396a" "-configuration" "Debug"]
+  ignore line: [2016-05-21 08:49:59.554 xcodebuild[85998:1983088] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs]
+  ignore line: [2016-05-21 08:49:59.555 xcodebuild[85998:1983088] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs]
+  ignore line: [2016-05-21 08:49:59.556 xcodebuild[85998:1983088] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs]
+  ignore line: [objc[85998]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.]
+  ignore line: [objc[85998]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.]
+  ignore line: [objc[85998]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.]
+  ignore line: [objc[85998]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.]
+  ignore line: [=== BUILD TARGET cmTC_2396a OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64]
+  ignore line: [write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/cmTC_2396a.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/3.4.0/share/cmake/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp]
+  ignore line: [    export LANG=en_US.US-ASCII]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/3.4.0/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/CMakeCCompilerABI.o]
+  ignore line: []
+  ignore line: [Ld Debug/cmTC_2396a normal x86_64]
+  ignore line: [    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp]
+  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.11]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/cmTC_2396a.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/cmTC_2396a_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_2396a]
+  ignore line: [Apple LLVM version 7.3.0 (clang-703.0.29)]
+  ignore line: [Target: x86_64-apple-darwin15.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_2396a -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/cmTC_2396a.LinkFileList -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/cmTC_2396a_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_2396a -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/cmTC_2396a.LinkFileList -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/cmTC_2396a_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_2396a -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/cmTC_2396a.LinkFileList -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/cmTC_2396a_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.11.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_2396a] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/cmTC_2396a.LinkFileList] ==> ignore
+    arg [-no_deduplicate] ==> ignore
+    arg [-v] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2396a.build/Objects-normal/x86_64/cmTC_2396a_dependency_info.dat] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
+  Framework search paths: [;/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug] ==> [/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
+  collapse framework dir [/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug] ==> [/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks]
+  implicit libs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_7b426" "-configuration" "Debug"
+2016-05-21 08:50:00.449 xcodebuild[86016:1983143] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:00.451 xcodebuild[86016:1983143] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:00.452 xcodebuild[86016:1983143] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[86016]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86016]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86016]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86016]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_7b426 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b426.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b426.build/Objects-normal/x86_64/cmTC_7b426.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_7b426.build/Objects-normal/x86_64/feature_tests.o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b426.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b426.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -std=c11 -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b426.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b426.build/Objects-normal/x86_64/feature_tests.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/feature_tests.c -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b426.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_7b426 normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b426.build/Objects-normal/x86_64/cmTC_7b426.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7b426.build/Objects-normal/x86_64/cmTC_7b426_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_7b426
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_72c09" "-configuration" "Debug"
+2016-05-21 08:50:01.323 xcodebuild[86032:1983195] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:01.326 xcodebuild[86032:1983195] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:01.328 xcodebuild[86032:1983195] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[86032]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86032]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86032]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86032]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_72c09 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_72c09.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_72c09.build/Objects-normal/x86_64/cmTC_72c09.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_72c09.build/Objects-normal/x86_64/feature_tests.o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_72c09.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_72c09.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -std=c99 -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_72c09.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_72c09.build/Objects-normal/x86_64/feature_tests.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/feature_tests.c -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_72c09.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_72c09 normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_72c09.build/Objects-normal/x86_64/cmTC_72c09.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_72c09.build/Objects-normal/x86_64/cmTC_72c09_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_72c09
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_5cd1c" "-configuration" "Debug"
+2016-05-21 08:50:02.212 xcodebuild[86048:1983240] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:02.214 xcodebuild[86048:1983240] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:02.215 xcodebuild[86048:1983240] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[86048]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86048]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86048]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86048]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_5cd1c OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5cd1c.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5cd1c.build/Objects-normal/x86_64/cmTC_5cd1c.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_5cd1c.build/Objects-normal/x86_64/feature_tests.o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5cd1c.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5cd1c.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -std=c90 -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5cd1c.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5cd1c.build/Objects-normal/x86_64/feature_tests.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/feature_tests.c -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5cd1c.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_5cd1c normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5cd1c.build/Objects-normal/x86_64/cmTC_5cd1c.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5cd1c.build/Objects-normal/x86_64/cmTC_5cd1c_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_5cd1c
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_053cd" "-configuration" "Debug"
+2016-05-21 08:50:03.147 xcodebuild[86064:1983291] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:03.149 xcodebuild[86064:1983291] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:03.149 xcodebuild[86064:1983291] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[86064]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86064]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86064]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86064]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_053cd OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_053cd.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_053cd.build/Objects-normal/x86_64/cmTC_053cd.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_053cd.build/Objects-normal/x86_64/testCXXCompiler.o testCXXCompiler.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_053cd.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_053cd.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_053cd.build/Objects-normal/x86_64/testCXXCompiler.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_053cd.build/Objects-normal/x86_64/testCXXCompiler.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_053cd.build/Objects-normal/x86_64/testCXXCompiler.o
+
+Ld Debug/cmTC_053cd normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_053cd.build/Objects-normal/x86_64/cmTC_053cd.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_053cd.build/Objects-normal/x86_64/cmTC_053cd_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_053cd
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_655b1" "-configuration" "Debug"
+2016-05-21 08:50:04.133 xcodebuild[86083:1983590] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:04.136 xcodebuild[86083:1983590] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:04.137 xcodebuild[86083:1983590] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[86083]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86083]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86083]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86083]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_655b1 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/cmTC_655b1.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/3.4.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/3.4.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o
+
+Ld Debug/cmTC_655b1 normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/cmTC_655b1.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/cmTC_655b1_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_655b1
+Apple LLVM version 7.3.0 (clang-703.0.29)
+Target: x86_64-apple-darwin15.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_655b1 -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/cmTC_655b1.LinkFileList -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/cmTC_655b1_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-264.3.101
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib
+Framework search paths:
+	/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/
+
+** BUILD SUCCEEDED **
+
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_655b1" "-configuration" "Debug"]
+  ignore line: [2016-05-21 08:50:04.133 xcodebuild[86083:1983590] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs]
+  ignore line: [2016-05-21 08:50:04.136 xcodebuild[86083:1983590] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs]
+  ignore line: [2016-05-21 08:50:04.137 xcodebuild[86083:1983590] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs]
+  ignore line: [objc[86083]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.]
+  ignore line: [objc[86083]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.]
+  ignore line: [objc[86083]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.]
+  ignore line: [objc[86083]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.]
+  ignore line: [=== BUILD TARGET cmTC_655b1 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64]
+  ignore line: [write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/cmTC_655b1.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/3.4.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp]
+  ignore line: [    export LANG=en_US.US-ASCII]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/3.4.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o]
+  ignore line: []
+  ignore line: [Ld Debug/cmTC_655b1 normal x86_64]
+  ignore line: [    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp]
+  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.11]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/cmTC_655b1.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/cmTC_655b1_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_655b1]
+  ignore line: [Apple LLVM version 7.3.0 (clang-703.0.29)]
+  ignore line: [Target: x86_64-apple-darwin15.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_655b1 -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/cmTC_655b1.LinkFileList -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/cmTC_655b1_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_655b1 -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/cmTC_655b1.LinkFileList -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/cmTC_655b1_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_655b1 -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/cmTC_655b1.LinkFileList -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/cmTC_655b1_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a ]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.11.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_655b1] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/cmTC_655b1.LinkFileList] ==> ignore
+    arg [-no_deduplicate] ==> ignore
+    arg [-v] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_655b1.build/Objects-normal/x86_64/cmTC_655b1_dependency_info.dat] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
+  Framework search paths: [;/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug] ==> [/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
+  collapse framework dir [/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug] ==> [/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks]
+  implicit libs: [c++;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_27f50" "-configuration" "Debug"
+2016-05-21 08:50:05.027 xcodebuild[86099:1983635] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:05.029 xcodebuild[86099:1983635] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:05.030 xcodebuild[86099:1983635] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[86099]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86099]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86099]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86099]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_27f50 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_27f50.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_27f50.build/Objects-normal/x86_64/cmTC_27f50.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_27f50.build/Objects-normal/x86_64/feature_tests.o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_27f50.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_27f50.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -std=c++14 -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_27f50.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_27f50.build/Objects-normal/x86_64/feature_tests.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/feature_tests.cxx -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_27f50.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_27f50 normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_27f50.build/Objects-normal/x86_64/cmTC_27f50.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_27f50.build/Objects-normal/x86_64/cmTC_27f50_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_27f50
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_0bc5a" "-configuration" "Debug"
+2016-05-21 08:50:05.970 xcodebuild[86115:1983711] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:05.971 xcodebuild[86115:1983711] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:05.972 xcodebuild[86115:1983711] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[86115]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86115]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86115]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86115]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_0bc5a OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0bc5a.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0bc5a.build/Objects-normal/x86_64/cmTC_0bc5a.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_0bc5a.build/Objects-normal/x86_64/feature_tests.o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0bc5a.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0bc5a.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -std=c++11 -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0bc5a.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0bc5a.build/Objects-normal/x86_64/feature_tests.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/feature_tests.cxx -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0bc5a.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_0bc5a normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0bc5a.build/Objects-normal/x86_64/cmTC_0bc5a.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0bc5a.build/Objects-normal/x86_64/cmTC_0bc5a_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_0bc5a
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_1f09b" "-configuration" "Debug"
+2016-05-21 08:50:06.914 xcodebuild[86133:1983868] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:06.916 xcodebuild[86133:1983868] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:06.917 xcodebuild[86133:1983868] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[86133]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86133]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86133]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86133]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_1f09b OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1f09b.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1f09b.build/Objects-normal/x86_64/cmTC_1f09b.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_1f09b.build/Objects-normal/x86_64/feature_tests.o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1f09b.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1f09b.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -std=c++98 -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1f09b.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1f09b.build/Objects-normal/x86_64/feature_tests.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/feature_tests.cxx -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1f09b.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_1f09b normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1f09b.build/Objects-normal/x86_64/cmTC_1f09b.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1f09b.build/Objects-normal/x86_64/cmTC_1f09b_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_1f09b
+
+** BUILD SUCCEEDED **
+
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_0c296" "-configuration" "Debug"
+2016-05-21 08:50:07.799 xcodebuild[86153:1983936] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:07.800 xcodebuild[86153:1983936] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:07.801 xcodebuild[86153:1983936] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[86153]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86153]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86153]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86153]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_0c296 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0c296.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0c296.build/Objects-normal/x86_64/cmTC_0c296.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_0c296.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0c296.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0c296.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0c296.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0c296.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0c296.build/Objects-normal/x86_64/CheckIncludeFile.o
+
+Ld Debug/cmTC_0c296 normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0c296.build/Objects-normal/x86_64/cmTC_0c296.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0c296.build/Objects-normal/x86_64/cmTC_0c296_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_0c296
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_5ea95" "-configuration" "Debug"
+2016-05-21 08:50:08.729 xcodebuild[86169:1983987] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:08.730 xcodebuild[86169:1983987] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:08.731 xcodebuild[86169:1983987] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[86169]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86169]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86169]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86169]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_5ea95 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5ea95.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5ea95.build/Objects-normal/x86_64/cmTC_5ea95.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_5ea95.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5ea95.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5ea95.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5ea95.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5ea95.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5ea95.build/Objects-normal/x86_64/CheckIncludeFile.o
+
+Ld Debug/cmTC_5ea95 normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5ea95.build/Objects-normal/x86_64/cmTC_5ea95.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_5ea95.build/Objects-normal/x86_64/cmTC_5ea95_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_5ea95
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_c7c99" "-configuration" "Debug"
+2016-05-21 08:50:09.576 xcodebuild[86187:1984036] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:09.578 xcodebuild[86187:1984036] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:09.578 xcodebuild[86187:1984036] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[86187]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86187]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86187]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86187]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_c7c99 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c7c99.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c7c99.build/Objects-normal/x86_64/cmTC_c7c99.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_c7c99.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c7c99.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c7c99.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c7c99.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c7c99.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c7c99.build/Objects-normal/x86_64/CheckIncludeFile.o
+
+Ld Debug/cmTC_c7c99 normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c7c99.build/Objects-normal/x86_64/cmTC_c7c99.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c7c99.build/Objects-normal/x86_64/cmTC_c7c99_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_c7c99
+
+** BUILD SUCCEEDED **
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_f50b2" "-configuration" "Debug"
+2016-05-21 08:50:10.412 xcodebuild[86203:1984079] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:10.415 xcodebuild[86203:1984079] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:10.415 xcodebuild[86203:1984079] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[86203]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86203]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86203]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86203]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_f50b2 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f50b2.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f50b2.build/Objects-normal/x86_64/cmTC_f50b2.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_f50b2.build/Objects-normal/x86_64/SIZEOF_SHORT.o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CheckTypeSize/SIZEOF_SHORT.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f50b2.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f50b2.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f50b2.build/Objects-normal/x86_64/SIZEOF_SHORT.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f50b2.build/Objects-normal/x86_64/SIZEOF_SHORT.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CheckTypeSize/SIZEOF_SHORT.c -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f50b2.build/Objects-normal/x86_64/SIZEOF_SHORT.o
+
+Ld Debug/cmTC_f50b2 normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f50b2.build/Objects-normal/x86_64/cmTC_f50b2.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f50b2.build/Objects-normal/x86_64/cmTC_f50b2_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_f50b2
+
+** BUILD SUCCEEDED **
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_7ceff" "-configuration" "Debug"
+2016-05-21 08:50:11.254 xcodebuild[86219:1984122] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:11.256 xcodebuild[86219:1984122] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:11.256 xcodebuild[86219:1984122] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[86219]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86219]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86219]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86219]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_7ceff OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7ceff.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7ceff.build/Objects-normal/x86_64/cmTC_7ceff.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_7ceff.build/Objects-normal/x86_64/SIZEOF_INT.o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CheckTypeSize/SIZEOF_INT.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7ceff.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7ceff.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7ceff.build/Objects-normal/x86_64/SIZEOF_INT.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7ceff.build/Objects-normal/x86_64/SIZEOF_INT.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CheckTypeSize/SIZEOF_INT.c -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7ceff.build/Objects-normal/x86_64/SIZEOF_INT.o
+
+Ld Debug/cmTC_7ceff normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7ceff.build/Objects-normal/x86_64/cmTC_7ceff.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7ceff.build/Objects-normal/x86_64/cmTC_7ceff_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_7ceff
+
+** BUILD SUCCEEDED **
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_3490c" "-configuration" "Debug"
+2016-05-21 08:50:12.148 xcodebuild[86235:1984176] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:12.151 xcodebuild[86235:1984176] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:12.152 xcodebuild[86235:1984176] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[86235]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86235]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86235]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86235]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_3490c OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3490c.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3490c.build/Objects-normal/x86_64/cmTC_3490c.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_3490c.build/Objects-normal/x86_64/SIZEOF_LONGLONG.o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CheckTypeSize/SIZEOF_LONGLONG.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3490c.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3490c.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3490c.build/Objects-normal/x86_64/SIZEOF_LONGLONG.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3490c.build/Objects-normal/x86_64/SIZEOF_LONGLONG.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CheckTypeSize/SIZEOF_LONGLONG.c -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3490c.build/Objects-normal/x86_64/SIZEOF_LONGLONG.o
+
+Ld Debug/cmTC_3490c normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3490c.build/Objects-normal/x86_64/cmTC_3490c.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3490c.build/Objects-normal/x86_64/cmTC_3490c_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_3490c
+
+** BUILD SUCCEEDED **
+
+
+
+Determining size of wchar_t passed with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_ccd6d" "-configuration" "Debug"
+2016-05-21 08:50:13.044 xcodebuild[86253:1984224] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:13.046 xcodebuild[86253:1984224] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:13.047 xcodebuild[86253:1984224] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[86253]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86253]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86253]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86253]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_ccd6d OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ccd6d.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ccd6d.build/Objects-normal/x86_64/cmTC_ccd6d.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_ccd6d.build/Objects-normal/x86_64/SIZEOF_WCHAR_T.o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CheckTypeSize/SIZEOF_WCHAR_T.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ccd6d.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ccd6d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ccd6d.build/Objects-normal/x86_64/SIZEOF_WCHAR_T.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ccd6d.build/Objects-normal/x86_64/SIZEOF_WCHAR_T.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CheckTypeSize/SIZEOF_WCHAR_T.c -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ccd6d.build/Objects-normal/x86_64/SIZEOF_WCHAR_T.o
+
+Ld Debug/cmTC_ccd6d normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ccd6d.build/Objects-normal/x86_64/cmTC_ccd6d.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ccd6d.build/Objects-normal/x86_64/cmTC_ccd6d_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_ccd6d
+
+** BUILD SUCCEEDED **
+
+
+
+Determining size of float passed with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_d14fe" "-configuration" "Debug"
+2016-05-21 08:50:13.951 xcodebuild[86270:1984521] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:13.954 xcodebuild[86270:1984521] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:13.955 xcodebuild[86270:1984521] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[86270]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86270]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86270]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86270]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_d14fe OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d14fe.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d14fe.build/Objects-normal/x86_64/cmTC_d14fe.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_d14fe.build/Objects-normal/x86_64/SIZEOF_FLOAT.o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CheckTypeSize/SIZEOF_FLOAT.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d14fe.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d14fe.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d14fe.build/Objects-normal/x86_64/SIZEOF_FLOAT.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d14fe.build/Objects-normal/x86_64/SIZEOF_FLOAT.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CheckTypeSize/SIZEOF_FLOAT.c -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d14fe.build/Objects-normal/x86_64/SIZEOF_FLOAT.o
+
+Ld Debug/cmTC_d14fe normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d14fe.build/Objects-normal/x86_64/cmTC_d14fe.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d14fe.build/Objects-normal/x86_64/cmTC_d14fe_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_d14fe
+
+** BUILD SUCCEEDED **
+
+
+
+Determining size of double passed with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_66545" "-configuration" "Debug"
+2016-05-21 08:50:14.809 xcodebuild[86286:1984565] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:14.812 xcodebuild[86286:1984565] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:14.813 xcodebuild[86286:1984565] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[86286]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86286]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86286]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86286]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_66545 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_66545.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_66545.build/Objects-normal/x86_64/cmTC_66545.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_66545.build/Objects-normal/x86_64/SIZEOF_DOUBLE.o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CheckTypeSize/SIZEOF_DOUBLE.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_66545.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_66545.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_66545.build/Objects-normal/x86_64/SIZEOF_DOUBLE.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_66545.build/Objects-normal/x86_64/SIZEOF_DOUBLE.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CheckTypeSize/SIZEOF_DOUBLE.c -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_66545.build/Objects-normal/x86_64/SIZEOF_DOUBLE.o
+
+Ld Debug/cmTC_66545 normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_66545.build/Objects-normal/x86_64/cmTC_66545.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_66545.build/Objects-normal/x86_64/cmTC_66545_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_66545
+
+** BUILD SUCCEEDED **
+
+
+
+Performing C++ SOURCE FILE Test HAVE_BOOST_BYTESWAP succeded with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_2a3ec" "-configuration" "Debug"
+2016-05-21 08:50:16.829 xcodebuild[86321:1984652] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:16.831 xcodebuild[86321:1984652] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:16.832 xcodebuild[86321:1984652] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[86321]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86321]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86321]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86321]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_2a3ec OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2a3ec.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2a3ec.build/Objects-normal/x86_64/cmTC_2a3ec.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_2a3ec.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/usr/local/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2a3ec.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2a3ec.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -DHAVE_BOOST_BYTESWAP -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2a3ec.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2a3ec.build/Objects-normal/x86_64/src.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/src.cxx -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2a3ec.build/Objects-normal/x86_64/src.o
+
+Ld Debug/cmTC_2a3ec normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2a3ec.build/Objects-normal/x86_64/cmTC_2a3ec.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2a3ec.build/Objects-normal/x86_64/cmTC_2a3ec_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_2a3ec
+
+** BUILD SUCCEEDED **
+
+
+Source file was:
+
+  #include <boost/endian/conversion.hpp>
+  int main() {
+    boost::endian::endian_reverse(static_cast<uint16_t>(1));
+    boost::endian::endian_reverse(static_cast<uint32_t>(1));
+    boost::endian::endian_reverse(static_cast<uint64_t>(1));
+    return 0;
+  }
+
+Performing C++ SOURCE FILE Test HAVE_VSNPRINTF succeded with the following output:
+Change Dir: /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_dc609" "-configuration" "Debug"
+2016-05-21 08:50:17.859 xcodebuild[86341:1984726] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ROTools.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:17.861 xcodebuild[86341:1984726] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/BetaWarpaint.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2016-05-21 08:50:17.862 xcodebuild[86341:1984726] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/ACCodeSnippetRepository.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+objc[86341]: Class AspectTracker is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86341]: Class AspectIdentifier is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86341]: Class AspectsContainer is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+objc[86341]: Class AspectInfo is implemented in both /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/PreciseCoverage.xcplugin/Contents/MacOS/PreciseCoverage and /Users/perfaram/Library/Application Support/Developer/Shared/Xcode/Plug-ins/HTYCopyIssue.xcplugin/Contents/MacOS/HTYCopyIssue. One of the two will be used. Which one is undefined.
+=== BUILD TARGET cmTC_dc609 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_dc609.build/Objects-normal/x86_64
+write-file /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_dc609.build/Objects-normal/x86_64/cmTC_dc609.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_dc609.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/include -I/usr/local/include -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_dc609.build/DerivedSources/x86_64 -I/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_dc609.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -DHAVE_VSNPRINTF -MMD -MT dependencies -MF /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_dc609.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_dc609.build/Objects-normal/x86_64/src.dia -c /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/src.cxx -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_dc609.build/Objects-normal/x86_64/src.o
+
+Ld Debug/cmTC_dc609 normal x86_64
+    cd /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.11
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -F/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug -filelist /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_dc609.build/Objects-normal/x86_64/cmTC_dc609.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_dc609.build/Objects-normal/x86_64/cmTC_dc609_dependency_info.dat -o /Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/CMakeTmp/Debug/cmTC_dc609
+
+** BUILD SUCCEEDED **
+
+
+Source file was:
+
+  #include <cstdio>
+  #include <cstdarg>
+  int main() {
+    char buf[20];
+    va_list args;
+    vsnprintf(buf, 20, "%d", args);
+    return 0;
+  }
+

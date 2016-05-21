@@ -10,3 +10,6 @@
 [submodule "FLAC/sources"]
 	path = FLAC/sources
 	url = https://git.xiph.org/flac.git
+[submodule "TagLib/sources"]
+	path = TagLib/sources
+	url = https://github.com/taglib/taglib.git
