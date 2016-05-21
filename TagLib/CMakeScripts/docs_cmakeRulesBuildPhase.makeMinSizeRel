@@ -2,9 +2,9 @@
 # Custom rules for docs
 .SUFFIXES: 
 all: \
-	/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/docs
+	/Users/perfaram/Downloads/Audio-Frameworks/TagLib/CMakeFiles/docs
 
 
-/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/docs: 
+/Users/perfaram/Downloads/Audio-Frameworks/TagLib/CMakeFiles/docs: 
 	echo ""
 	doxygen

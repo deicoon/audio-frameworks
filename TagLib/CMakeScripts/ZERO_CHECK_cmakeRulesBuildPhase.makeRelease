@@ -2,9 +2,9 @@
 # Custom rules for ZERO_CHECK
 .SUFFIXES: 
 all: \
-	/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/ZERO_CHECK
+	/Users/perfaram/Downloads/Audio-Frameworks/TagLib/CMakeFiles/ZERO_CHECK
 
 
-/Users/perfaram/Audio-Frameworks/TagLib/CMakeFiles/ZERO_CHECK: 
+/Users/perfaram/Downloads/Audio-Frameworks/TagLib/CMakeFiles/ZERO_CHECK: 
 	echo ""
-	make -f /Users/perfaram/Audio-Frameworks/TagLib/CMakeScripts/ReRunCMake.make
+	make -f /Users/perfaram/Downloads/Audio-Frameworks/TagLib/CMakeScripts/ReRunCMake.make

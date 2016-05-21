@@ -1,4 +1,4 @@
-# Install script for directory: /Users/perfaram/Audio-Frameworks/TagLib/sources/bindings/c
+# Install script for directory: /Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,7 +37,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/Users/perfaram/Audio-Frameworks/TagLib/bindings/c/Debug/libtag_c.a")
+file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/Users/perfaram/Downloads/Audio-Frameworks/TagLib/bindings/c/Debug/libtag_c.a")
     if(EXISTS "$ENV{DESTDIR}/usr/local/lib/libtag_c.a" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libtag_c.a")
       execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}/usr/local/lib/libtag_c.a")
@@ -51,7 +51,7 @@ file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/Users/perf
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/Users/perfaram/Audio-Frameworks/TagLib/bindings/c/Release/libtag_c.a")
+file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/Users/perfaram/Downloads/Audio-Frameworks/TagLib/bindings/c/Release/libtag_c.a")
     if(EXISTS "$ENV{DESTDIR}/usr/local/lib/libtag_c.a" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libtag_c.a")
       execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}/usr/local/lib/libtag_c.a")
@@ -65,7 +65,7 @@ file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/Users/perf
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/Users/perfaram/Audio-Frameworks/TagLib/bindings/c/MinSizeRel/libtag_c.a")
+file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/Users/perfaram/Downloads/Audio-Frameworks/TagLib/bindings/c/MinSizeRel/libtag_c.a")
     if(EXISTS "$ENV{DESTDIR}/usr/local/lib/libtag_c.a" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libtag_c.a")
       execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}/usr/local/lib/libtag_c.a")
@@ -79,7 +79,7 @@ file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/Users/perf
     if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
         message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
     endif()
-file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/Users/perfaram/Audio-Frameworks/TagLib/bindings/c/RelWithDebInfo/libtag_c.a")
+file(INSTALL DESTINATION "/usr/local/lib" TYPE STATIC_LIBRARY FILES "/Users/perfaram/Downloads/Audio-Frameworks/TagLib/bindings/c/RelWithDebInfo/libtag_c.a")
     if(EXISTS "$ENV{DESTDIR}/usr/local/lib/libtag_c.a" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/libtag_c.a")
       execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib" "$ENV{DESTDIR}/usr/local/lib/libtag_c.a")
@@ -96,6 +96,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/include/taglib" TYPE FILE FILES "/Users/perfaram/Audio-Frameworks/TagLib/sources/bindings/c/tag_c.h")
+file(INSTALL DESTINATION "/usr/local/include/taglib" TYPE FILE FILES "/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/tag_c.h")
 endif()
 

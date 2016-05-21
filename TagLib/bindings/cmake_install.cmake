@@ -1,4 +1,4 @@
-# Install script for directory: /Users/perfaram/Audio-Frameworks/TagLib/sources/bindings
+# Install script for directory: /Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/perfaram/Audio-Frameworks/TagLib/bindings/c/cmake_install.cmake")
+  include("/Users/perfaram/Downloads/Audio-Frameworks/TagLib/bindings/c/cmake_install.cmake")
 
 endif()
 

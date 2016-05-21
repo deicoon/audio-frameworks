@@ -30,4 +30,4 @@
 /* Indicates whether debug messages are shown even in release mode */
 /* #undef TRACE_IN_RELEASE */
 
-#define TESTS_DIR "/Users/perfaram/Audio-Frameworks/TagLib/sources/tests/"
+#define TESTS_DIR "/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/tests/"
