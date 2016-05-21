@@ -1,0 +1,6 @@
+framework module Opus {
+  umbrella header "Opus.h"
+
+  export *
+  module * { export * }
+}
