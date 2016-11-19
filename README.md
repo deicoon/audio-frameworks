@@ -3,13 +3,14 @@ MacOS/iOS static frameworks and libraries:
 * Ogg
 * Opus
 * OpusFile
+* TagLib
 
 Instructions
 -------
 
 Precompiled libraries and frameworks are located in `bin` folder.
 
-Libraries sources included as git submodules. 
+Libraries sources included as git submodules, that you'll have to `git submodule update --init --recursive` before anything else.
 
 There are some issues with the FLAC library, due to the way files are organized. To compile it, first update the submodule & then execute the following commands from the FLAC submodule directory (FLAC/sources) : 
 ```
@@ -29,6 +30,8 @@ ln -s ../../../include/share  ./src/share/getopt/share
 ln -s ../../include/share  ./src/metaflac/share
 ln -s ../../include/share  ./src/flac/share
 ```
+
+Regarding the compilation itself, you just have to open the Xcode project contained in each directory and build the target you're interested into (be it a framework or a static lib).
 
 Credits
 -------
