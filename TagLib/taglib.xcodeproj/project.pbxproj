@@ -236,6 +236,112 @@
 		0B2CAAB61CF059BD00ABFC95 /* xmfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 10FEED44E9E14BBF8473E124 /* xmfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B2CAAB71CF059BD00ABFC95 /* xmproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = FB4953308126472DBC124720 /* xmproperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B2CAAB81CF059BD00ABFC95 /* taglib_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DE5A5365404F348652784B /* taglib_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B54D3F21DE1ED3D001AF279 /* tlist.tcc in CopyFiles */ = {isa = PBXBuildFile; fileRef = BA200ECBEC97475DA7960D33 /* tlist.tcc */; };
+		0B54D3F31DE1ED3D001AF279 /* tmap.tcc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5634DBC069D347A5B14D9AFD /* tmap.tcc */; };
+		0B7B825F1DE1E54A0081A38D /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B7B825E1DE1E54A0081A38D /* config.h */; };
+		0B7B82621DE1E7090081A38D /* apefile.h in Headers */ = {isa = PBXBuildFile; fileRef = 75545B62F8BB4D369561B9B9 /* apefile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82631DE1E7090081A38D /* apefooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8182B59B2F574F00B75B8AF9 /* apefooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82641DE1E7090081A38D /* apeitem.h in Headers */ = {isa = PBXBuildFile; fileRef = A06F559C81504A1681C995E8 /* apeitem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82651DE1E7090081A38D /* apeproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 330FE5125FB142D0B52DBB94 /* apeproperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82661DE1E7090081A38D /* apetag.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F57C26F9FFF4179ADB25A6F /* apetag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82671DE1E7090081A38D /* asfattribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 95835F78677F400B8FF87B77 /* asfattribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82681DE1E7090081A38D /* asffile.h in Headers */ = {isa = PBXBuildFile; fileRef = D39523B6CA2C48A7AA9B3EA2 /* asffile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82691DE1E7090081A38D /* asfpicture.h in Headers */ = {isa = PBXBuildFile; fileRef = A8138E37D6C248C9AD0EE56C /* asfpicture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B826A1DE1E7090081A38D /* asfproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D73ABA95C84EB1BC2D2747 /* asfproperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B826B1DE1E7090081A38D /* asftag.h in Headers */ = {isa = PBXBuildFile; fileRef = 0118FE216411469ABD5FBD73 /* asftag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B826C1DE1E7090081A38D /* audioproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = CD162E6BC6CC418392447BC3 /* audioproperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B826D1DE1E7090081A38D /* fileref.h in Headers */ = {isa = PBXBuildFile; fileRef = 5931963DE2524F809EAA3304 /* fileref.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B826E1DE1E7090081A38D /* flacfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D648783D3DC45D8AFD3E2DE /* flacfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B826F1DE1E7090081A38D /* flacmetadatablock.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1EAA3F8DA14EE39DF51EF6 /* flacmetadatablock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82701DE1E7090081A38D /* flacpicture.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A3FA4679DA44965A03B84B8 /* flacpicture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82711DE1E7090081A38D /* flacproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 9064B3A7F20E46B3B40F96ED /* flacproperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82721DE1E7090081A38D /* itfile.h in Headers */ = {isa = PBXBuildFile; fileRef = B2AAA9A5DE6A4A10BF37ED46 /* itfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82731DE1E7090081A38D /* itproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = B89479F937CC46BC84807EA5 /* itproperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82741DE1E7090081A38D /* modfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D9B9AA698A0485CA5D12341 /* modfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82751DE1E7090081A38D /* modfilebase.h in Headers */ = {isa = PBXBuildFile; fileRef = D20D2533784E4A76BD377651 /* modfilebase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82761DE1E7090081A38D /* modproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EBEAAD31E024128A5494A1A /* modproperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82771DE1E7090081A38D /* modtag.h in Headers */ = {isa = PBXBuildFile; fileRef = 814E58C94B704338801E3853 /* modtag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82781DE1E7090081A38D /* mp4atom.h in Headers */ = {isa = PBXBuildFile; fileRef = AF12E742A9EE40E99F0F77A1 /* mp4atom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82791DE1E7090081A38D /* mp4coverart.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C843AB330EE442AA162BF32 /* mp4coverart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B827A1DE1E7090081A38D /* mp4file.h in Headers */ = {isa = PBXBuildFile; fileRef = C0B5E33050B943C58865A1FE /* mp4file.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B827B1DE1E7090081A38D /* mp4item.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A82FACE415340D689268FC7 /* mp4item.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B827C1DE1E7090081A38D /* mp4properties.h in Headers */ = {isa = PBXBuildFile; fileRef = AEDA8D33D6F948F7822EBCAD /* mp4properties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B827D1DE1E7090081A38D /* mp4tag.h in Headers */ = {isa = PBXBuildFile; fileRef = 66DF327A8D6047A09AD086B0 /* mp4tag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B827E1DE1E7090081A38D /* mpcfile.h in Headers */ = {isa = PBXBuildFile; fileRef = EC3DB0EB794D4744A71D5CAB /* mpcfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B827F1DE1E7090081A38D /* mpcproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = FE56000DB6A7479E90904C1E /* mpcproperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82801DE1E7090081A38D /* id3v1genres.h in Headers */ = {isa = PBXBuildFile; fileRef = CD3E8EAC19C34A31B390C14F /* id3v1genres.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82811DE1E7090081A38D /* id3v1tag.h in Headers */ = {isa = PBXBuildFile; fileRef = CB70641171E4497EB8D5D1FD /* id3v1tag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82821DE1E7090081A38D /* attachedpictureframe.h in Headers */ = {isa = PBXBuildFile; fileRef = 445A5CAE8A674E7ABDFDCD78 /* attachedpictureframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82831DE1E7090081A38D /* chapterframe.h in Headers */ = {isa = PBXBuildFile; fileRef = 21BBF6567A2F4443B1909BC3 /* chapterframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82841DE1E7090081A38D /* commentsframe.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A39A28D0B042C3BCB0AB2E /* commentsframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82851DE1E7090081A38D /* eventtimingcodesframe.h in Headers */ = {isa = PBXBuildFile; fileRef = C091FC00FB554CCE9AAC5B39 /* eventtimingcodesframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82861DE1E7090081A38D /* generalencapsulatedobjectframe.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EBC1F1BB3934EA9BCB6745C /* generalencapsulatedobjectframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82871DE1E7090081A38D /* ownershipframe.h in Headers */ = {isa = PBXBuildFile; fileRef = E89FCCC434C445FF91A88346 /* ownershipframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82881DE1E7090081A38D /* podcastframe.h in Headers */ = {isa = PBXBuildFile; fileRef = C3325EBB89204D33943800D5 /* podcastframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82891DE1E7090081A38D /* popularimeterframe.h in Headers */ = {isa = PBXBuildFile; fileRef = 023A0D5755AC477DB7829F85 /* popularimeterframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B828A1DE1E7090081A38D /* privateframe.h in Headers */ = {isa = PBXBuildFile; fileRef = B44AF17A6E7F4E0993C25D5B /* privateframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B828B1DE1E7090081A38D /* relativevolumeframe.h in Headers */ = {isa = PBXBuildFile; fileRef = 827E3D309B1B4664B38E757B /* relativevolumeframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B828C1DE1E7090081A38D /* synchronizedlyricsframe.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E998D5774E4073AD282451 /* synchronizedlyricsframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B828D1DE1E7090081A38D /* tableofcontentsframe.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCF284FFC044025954D7F93 /* tableofcontentsframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B828E1DE1E7090081A38D /* textidentificationframe.h in Headers */ = {isa = PBXBuildFile; fileRef = D797284BCF0F4608A4DA3ADA /* textidentificationframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B828F1DE1E7090081A38D /* uniquefileidentifierframe.h in Headers */ = {isa = PBXBuildFile; fileRef = EC244C090F9E4B93A5667B3D /* uniquefileidentifierframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82901DE1E7090081A38D /* unknownframe.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E43F99AEE494B0C8759DD02 /* unknownframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82911DE1E7090081A38D /* unsynchronizedlyricsframe.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D9189C6BAE4C6F89EFD985 /* unsynchronizedlyricsframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82921DE1E7090081A38D /* urllinkframe.h in Headers */ = {isa = PBXBuildFile; fileRef = D574C6FEE59E471F944207DA /* urllinkframe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82931DE1E7090081A38D /* id3v2extendedheader.h in Headers */ = {isa = PBXBuildFile; fileRef = 075ED3012CEF4412B0040CD1 /* id3v2extendedheader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82941DE1E7090081A38D /* id3v2footer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E2041E345B4A19871126C6 /* id3v2footer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82951DE1E7090081A38D /* id3v2frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 56683D4B1E034B1C97FE7613 /* id3v2frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82961DE1E7090081A38D /* id3v2framefactory.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBE6912531E47258B0DD422 /* id3v2framefactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82971DE1E7090081A38D /* id3v2header.h in Headers */ = {isa = PBXBuildFile; fileRef = FA31F08066DF47439F1F952F /* id3v2header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82981DE1E7090081A38D /* id3v2synchdata.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EBBF8C14E14134AD1D6E43 /* id3v2synchdata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82991DE1E7090081A38D /* id3v2tag.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EDA7399957749D7AE13782E /* id3v2tag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B829A1DE1E7090081A38D /* mpegfile.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F297804C9D4F4692A29EA8 /* mpegfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B829B1DE1E7090081A38D /* mpegheader.h in Headers */ = {isa = PBXBuildFile; fileRef = B9885C6408A042DEB1642FAC /* mpegheader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B829C1DE1E7090081A38D /* mpegproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BBDF74C45A3491EACC98E52 /* mpegproperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B829D1DE1E7090081A38D /* xingheader.h in Headers */ = {isa = PBXBuildFile; fileRef = D00389693BAD4FA3826E0F31 /* xingheader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B829E1DE1E7090081A38D /* oggflacfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E9EA0049E3E41728A7E17FC /* oggflacfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B829F1DE1E7090081A38D /* oggfile.h in Headers */ = {isa = PBXBuildFile; fileRef = C67CE1B287B84A6CA5FF977D /* oggfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82A01DE1E7090081A38D /* oggpage.h in Headers */ = {isa = PBXBuildFile; fileRef = 755068C6AF0346118C60EC84 /* oggpage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82A11DE1E7090081A38D /* oggpageheader.h in Headers */ = {isa = PBXBuildFile; fileRef = AF086F95BD194CEC89D98205 /* oggpageheader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82A21DE1E7090081A38D /* opusfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 01ED06B5FF944522B8AA2952 /* opusfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82A31DE1E7090081A38D /* opusproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 3024CEAD0A2D43CCB82A3F55 /* opusproperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82A41DE1E7090081A38D /* speexfile.h in Headers */ = {isa = PBXBuildFile; fileRef = E96A1911BB604759AB06CF93 /* speexfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82A51DE1E7090081A38D /* speexproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF91604397B4BB0A89EA470 /* speexproperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82A61DE1E7090081A38D /* vorbisfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 47FF65CF2150469B9A09D182 /* vorbisfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82A71DE1E7090081A38D /* vorbisproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 4439CF9287AF456496507D8F /* vorbisproperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82A81DE1E7090081A38D /* xiphcomment.h in Headers */ = {isa = PBXBuildFile; fileRef = FDDA745842694EE7956F5F15 /* xiphcomment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82A91DE1E7090081A38D /* aifffile.h in Headers */ = {isa = PBXBuildFile; fileRef = 231FF151BB8946C6952FA11A /* aifffile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82AA1DE1E7090081A38D /* aiffproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 37228EBB63D944529E5E9236 /* aiffproperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82AB1DE1E7090081A38D /* rifffile.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C0B39E77A1B4F2C8F9D216B /* rifffile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82AC1DE1E7090081A38D /* infotag.h in Headers */ = {isa = PBXBuildFile; fileRef = 810FB899AE2E4E5EAF73CAC3 /* infotag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82AD1DE1E7090081A38D /* wavfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 63CBDE38F975499F93110570 /* wavfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82AE1DE1E7090081A38D /* wavproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = F2BABA2155414609909E3034 /* wavproperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82AF1DE1E7090081A38D /* s3mfile.h in Headers */ = {isa = PBXBuildFile; fileRef = F8CF2575DD024CFDB273D339 /* s3mfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82B01DE1E7090081A38D /* s3mproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B48F933A4714103B5DAC18D /* s3mproperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82B11DE1E7090081A38D /* tag.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A6A249132B4E7AA11D7559 /* tag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82B21DE1E7090081A38D /* taglib_export.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A2D0DD2D4CC4F6FAF796C1F /* taglib_export.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82B31DE1E7090081A38D /* taglib.h in Headers */ = {isa = PBXBuildFile; fileRef = B391AA8903AA42C7ADCAF781 /* taglib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82B41DE1E7090081A38D /* tbytevector.h in Headers */ = {isa = PBXBuildFile; fileRef = F21FE18CB5124DC3BFCFE05C /* tbytevector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82B51DE1E7090081A38D /* tbytevectorlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D89A68F7BDA456B80D14F75 /* tbytevectorlist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82B61DE1E7090081A38D /* tbytevectorstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B0DBE7A81344BBAB301EA0 /* tbytevectorstream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82B71DE1E7090081A38D /* tdebuglistener.h in Headers */ = {isa = PBXBuildFile; fileRef = F5CE752682D8469E9A1D0147 /* tdebuglistener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82B81DE1E7090081A38D /* tfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 8925D86C268B4FA9A4487D3D /* tfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82B91DE1E7090081A38D /* tfilestream.h in Headers */ = {isa = PBXBuildFile; fileRef = CA758B7EB5F0433A92CAAD2F /* tfilestream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82BA1DE1E7090081A38D /* tiostream.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7AE4FF78914DFF9CECC256 /* tiostream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82BB1DE1E7090081A38D /* tlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 336F938CFC864A3DA4FF5C1A /* tlist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82BC1DE1E7090081A38D /* tmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 6797EFF641E24C5CBA2340DA /* tmap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82BD1DE1E7090081A38D /* tpropertymap.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA64DD97F7B42DFBF5C897F /* tpropertymap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82BE1DE1E7090081A38D /* trefcounter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F1B40A3E6944D8EB58EA5CE /* trefcounter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82BF1DE1E7090081A38D /* tstring.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F80F577109B4993A26238C2 /* tstring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82C01DE1E7090081A38D /* tstringlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D347312E65A4519850C6940 /* tstringlist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82C11DE1E7090081A38D /* trueaudiofile.h in Headers */ = {isa = PBXBuildFile; fileRef = 684F97BFA6C44955B465B280 /* trueaudiofile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82C21DE1E70A0081A38D /* trueaudioproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 39AD1F8550914E63BAEAB659 /* trueaudioproperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82C31DE1E70A0081A38D /* wavpackfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F13D70F655040ABA95DC5AB /* wavpackfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82C41DE1E70A0081A38D /* wavpackproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 723FB611885B401F92ADD48A /* wavpackproperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82C51DE1E70A0081A38D /* xmfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 10FEED44E9E14BBF8473E124 /* xmfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82C61DE1E70A0081A38D /* xmproperties.h in Headers */ = {isa = PBXBuildFile; fileRef = FB4953308126472DBC124720 /* xmproperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82C71DE1E70A0081A38D /* taglib_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DE5A5365404F348652784B /* taglib_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7B82C81DE1E7110081A38D /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B7B825E1DE1E54A0081A38D /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F376445B8374288950F01BB /* asftag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A5D9B585E4EBD89562A5A /* asftag.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		10DABD7C4C5A4CE7B3879F8D /* asffile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8305E8F3AF1C4E3AAA376C07 /* asffile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		113676969025417089E18FD8 /* modproperties.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61C55AF372EB4E40A4DF7B87 /* modproperties.cpp */; settings = {COMPILER_FLAGS = ""; }; };
@@ -350,6 +456,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0B54D3F11DE1ED0F001AF279 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ./Headers;
+			dstSubfolderSpec = 1;
+			files = (
+				0B54D3F21DE1ED3D001AF279 /* tlist.tcc in CopyFiles */,
+				0B54D3F31DE1ED3D001AF279 /* tmap.tcc in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0118FE216411469ABD5FBD73 /* asftag.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = asftag.h; path = taglib/asf/asftag.h; sourceTree = SOURCE_ROOT; };
 		01ED06B5FF944522B8AA2952 /* opusfile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = opusfile.h; path = taglib/ogg/opus/opusfile.h; sourceTree = SOURCE_ROOT; };
@@ -360,6 +480,7 @@
 		0B2CA9E21CF0596000ABFC95 /* TagLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TagLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B2CA9E61CF0596000ABFC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B2CAAC51CF0B75F00ABFC95 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		0B7B825E1DE1E54A0081A38D /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../config.h; sourceTree = "<group>"; };
 		0BBDF74C45A3491EACC98E52 /* mpegproperties.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mpegproperties.h; path = taglib/mpeg/mpegproperties.h; sourceTree = SOURCE_ROOT; };
 		0DA1AB4D85FB42A291398E3D /* id3v2frame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = id3v2frame.cpp; path = taglib/mpeg/id3v2/id3v2frame.cpp; sourceTree = SOURCE_ROOT; };
 		10FEED44E9E14BBF8473E124 /* xmfile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xmfile.h; path = taglib/xm/xmfile.h; sourceTree = SOURCE_ROOT; };
@@ -711,6 +832,7 @@
 			isa = PBXGroup;
 			children = (
 				0B2CAAC51CF0B75F00ABFC95 /* CMakeLists.txt */,
+				0B7B825E1DE1E54A0081A38D /* config.h */,
 				7B2B5265C9854F208389008D /* Source Files */,
 				0C76F16B238E49159D1C2A21 /* Header Files */,
 				E6179BAA89F44594A6136FFB /* CMakeLists.txt */,
@@ -889,6 +1011,7 @@
 				0B2CAA5F1CF059BC00ABFC95 /* flacfile.h in Headers */,
 				0B2CAA601CF059BC00ABFC95 /* flacmetadatablock.h in Headers */,
 				0B2CAA611CF059BC00ABFC95 /* flacpicture.h in Headers */,
+				0B7B825F1DE1E54A0081A38D /* config.h in Headers */,
 				0B2CAA621CF059BC00ABFC95 /* flacproperties.h in Headers */,
 				0B2CAA631CF059BC00ABFC95 /* itfile.h in Headers */,
 				0B2CAA641CF059BC00ABFC95 /* itproperties.h in Headers */,
@@ -979,6 +1102,116 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0B7B82611DE1E6DC0081A38D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7B82C81DE1E7110081A38D /* config.h in Headers */,
+				0B7B82621DE1E7090081A38D /* apefile.h in Headers */,
+				0B7B82631DE1E7090081A38D /* apefooter.h in Headers */,
+				0B7B82641DE1E7090081A38D /* apeitem.h in Headers */,
+				0B7B82651DE1E7090081A38D /* apeproperties.h in Headers */,
+				0B7B82661DE1E7090081A38D /* apetag.h in Headers */,
+				0B7B82671DE1E7090081A38D /* asfattribute.h in Headers */,
+				0B7B82681DE1E7090081A38D /* asffile.h in Headers */,
+				0B7B82691DE1E7090081A38D /* asfpicture.h in Headers */,
+				0B7B826A1DE1E7090081A38D /* asfproperties.h in Headers */,
+				0B7B826B1DE1E7090081A38D /* asftag.h in Headers */,
+				0B7B826C1DE1E7090081A38D /* audioproperties.h in Headers */,
+				0B7B826D1DE1E7090081A38D /* fileref.h in Headers */,
+				0B7B826E1DE1E7090081A38D /* flacfile.h in Headers */,
+				0B7B826F1DE1E7090081A38D /* flacmetadatablock.h in Headers */,
+				0B7B82701DE1E7090081A38D /* flacpicture.h in Headers */,
+				0B7B82711DE1E7090081A38D /* flacproperties.h in Headers */,
+				0B7B82721DE1E7090081A38D /* itfile.h in Headers */,
+				0B7B82731DE1E7090081A38D /* itproperties.h in Headers */,
+				0B7B82741DE1E7090081A38D /* modfile.h in Headers */,
+				0B7B82751DE1E7090081A38D /* modfilebase.h in Headers */,
+				0B7B82761DE1E7090081A38D /* modproperties.h in Headers */,
+				0B7B82771DE1E7090081A38D /* modtag.h in Headers */,
+				0B7B82781DE1E7090081A38D /* mp4atom.h in Headers */,
+				0B7B82791DE1E7090081A38D /* mp4coverart.h in Headers */,
+				0B7B827A1DE1E7090081A38D /* mp4file.h in Headers */,
+				0B7B827B1DE1E7090081A38D /* mp4item.h in Headers */,
+				0B7B827C1DE1E7090081A38D /* mp4properties.h in Headers */,
+				0B7B827D1DE1E7090081A38D /* mp4tag.h in Headers */,
+				0B7B827E1DE1E7090081A38D /* mpcfile.h in Headers */,
+				0B7B827F1DE1E7090081A38D /* mpcproperties.h in Headers */,
+				0B7B82801DE1E7090081A38D /* id3v1genres.h in Headers */,
+				0B7B82811DE1E7090081A38D /* id3v1tag.h in Headers */,
+				0B7B82821DE1E7090081A38D /* attachedpictureframe.h in Headers */,
+				0B7B82831DE1E7090081A38D /* chapterframe.h in Headers */,
+				0B7B82841DE1E7090081A38D /* commentsframe.h in Headers */,
+				0B7B82851DE1E7090081A38D /* eventtimingcodesframe.h in Headers */,
+				0B7B82861DE1E7090081A38D /* generalencapsulatedobjectframe.h in Headers */,
+				0B7B82871DE1E7090081A38D /* ownershipframe.h in Headers */,
+				0B7B82881DE1E7090081A38D /* podcastframe.h in Headers */,
+				0B7B82891DE1E7090081A38D /* popularimeterframe.h in Headers */,
+				0B7B828A1DE1E7090081A38D /* privateframe.h in Headers */,
+				0B7B828B1DE1E7090081A38D /* relativevolumeframe.h in Headers */,
+				0B7B828C1DE1E7090081A38D /* synchronizedlyricsframe.h in Headers */,
+				0B7B828D1DE1E7090081A38D /* tableofcontentsframe.h in Headers */,
+				0B7B828E1DE1E7090081A38D /* textidentificationframe.h in Headers */,
+				0B7B828F1DE1E7090081A38D /* uniquefileidentifierframe.h in Headers */,
+				0B7B82901DE1E7090081A38D /* unknownframe.h in Headers */,
+				0B7B82911DE1E7090081A38D /* unsynchronizedlyricsframe.h in Headers */,
+				0B7B82921DE1E7090081A38D /* urllinkframe.h in Headers */,
+				0B7B82931DE1E7090081A38D /* id3v2extendedheader.h in Headers */,
+				0B7B82941DE1E7090081A38D /* id3v2footer.h in Headers */,
+				0B7B82951DE1E7090081A38D /* id3v2frame.h in Headers */,
+				0B7B82961DE1E7090081A38D /* id3v2framefactory.h in Headers */,
+				0B7B82971DE1E7090081A38D /* id3v2header.h in Headers */,
+				0B7B82981DE1E7090081A38D /* id3v2synchdata.h in Headers */,
+				0B7B82991DE1E7090081A38D /* id3v2tag.h in Headers */,
+				0B7B829A1DE1E7090081A38D /* mpegfile.h in Headers */,
+				0B7B829B1DE1E7090081A38D /* mpegheader.h in Headers */,
+				0B7B829C1DE1E7090081A38D /* mpegproperties.h in Headers */,
+				0B7B829D1DE1E7090081A38D /* xingheader.h in Headers */,
+				0B7B829E1DE1E7090081A38D /* oggflacfile.h in Headers */,
+				0B7B829F1DE1E7090081A38D /* oggfile.h in Headers */,
+				0B7B82A01DE1E7090081A38D /* oggpage.h in Headers */,
+				0B7B82A11DE1E7090081A38D /* oggpageheader.h in Headers */,
+				0B7B82A21DE1E7090081A38D /* opusfile.h in Headers */,
+				0B7B82A31DE1E7090081A38D /* opusproperties.h in Headers */,
+				0B7B82A41DE1E7090081A38D /* speexfile.h in Headers */,
+				0B7B82A51DE1E7090081A38D /* speexproperties.h in Headers */,
+				0B7B82A61DE1E7090081A38D /* vorbisfile.h in Headers */,
+				0B7B82A71DE1E7090081A38D /* vorbisproperties.h in Headers */,
+				0B7B82A81DE1E7090081A38D /* xiphcomment.h in Headers */,
+				0B7B82A91DE1E7090081A38D /* aifffile.h in Headers */,
+				0B7B82AA1DE1E7090081A38D /* aiffproperties.h in Headers */,
+				0B7B82AB1DE1E7090081A38D /* rifffile.h in Headers */,
+				0B7B82AC1DE1E7090081A38D /* infotag.h in Headers */,
+				0B7B82AD1DE1E7090081A38D /* wavfile.h in Headers */,
+				0B7B82AE1DE1E7090081A38D /* wavproperties.h in Headers */,
+				0B7B82AF1DE1E7090081A38D /* s3mfile.h in Headers */,
+				0B7B82B01DE1E7090081A38D /* s3mproperties.h in Headers */,
+				0B7B82B11DE1E7090081A38D /* tag.h in Headers */,
+				0B7B82B21DE1E7090081A38D /* taglib_export.h in Headers */,
+				0B7B82B31DE1E7090081A38D /* taglib.h in Headers */,
+				0B7B82B41DE1E7090081A38D /* tbytevector.h in Headers */,
+				0B7B82B51DE1E7090081A38D /* tbytevectorlist.h in Headers */,
+				0B7B82B61DE1E7090081A38D /* tbytevectorstream.h in Headers */,
+				0B7B82B71DE1E7090081A38D /* tdebuglistener.h in Headers */,
+				0B7B82B81DE1E7090081A38D /* tfile.h in Headers */,
+				0B7B82B91DE1E7090081A38D /* tfilestream.h in Headers */,
+				0B7B82BA1DE1E7090081A38D /* tiostream.h in Headers */,
+				0B7B82BB1DE1E7090081A38D /* tlist.h in Headers */,
+				0B7B82BC1DE1E7090081A38D /* tmap.h in Headers */,
+				0B7B82BD1DE1E7090081A38D /* tpropertymap.h in Headers */,
+				0B7B82BE1DE1E7090081A38D /* trefcounter.h in Headers */,
+				0B7B82BF1DE1E7090081A38D /* tstring.h in Headers */,
+				0B7B82C01DE1E7090081A38D /* tstringlist.h in Headers */,
+				0B7B82C11DE1E7090081A38D /* trueaudiofile.h in Headers */,
+				0B7B82C21DE1E70A0081A38D /* trueaudioproperties.h in Headers */,
+				0B7B82C31DE1E70A0081A38D /* wavpackfile.h in Headers */,
+				0B7B82C41DE1E70A0081A38D /* wavpackproperties.h in Headers */,
+				0B7B82C51DE1E70A0081A38D /* xmfile.h in Headers */,
+				0B7B82C61DE1E70A0081A38D /* xmproperties.h in Headers */,
+				0B7B82C71DE1E70A0081A38D /* taglib_config.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -990,6 +1223,7 @@
 				0B2CA9DE1CF0596000ABFC95 /* Frameworks */,
 				0B2CA9DF1CF0596000ABFC95 /* Headers */,
 				0B2CA9E01CF0596000ABFC95 /* Resources */,
+				0B54D3F11DE1ED0F001AF279 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -1005,6 +1239,7 @@
 			buildConfigurationList = FD2E422C959B4ECCA8F0D553 /* Build configuration list for PBXNativeTarget "tag" */;
 			buildPhases = (
 				4020A57C026F45ACB2910B89 /* Sources */,
+				0B7B82611DE1E6DC0081A38D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1340,7 +1575,7 @@
 		0B2CA9E71CF0596000ABFC95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1385,34 +1620,10 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/taglib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/toolkit",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/asf",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpc",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mp4",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/vorbis",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/speex",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/opus",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v2",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v2/frames",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v1",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ape",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/wavpack",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/trueaudio",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff/aiff",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff/wav",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mod",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/s3m",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/it",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/xm",
+					"./sources/taglib/**",
 					/usr/local/include,
+					"./sources/bindings/**",
+					./,
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/../TagLib/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1438,7 +1649,7 @@
 		0B2CA9E81CF0596000ABFC95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1480,34 +1691,10 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/taglib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/toolkit",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/asf",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpc",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mp4",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/vorbis",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/speex",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/opus",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v2",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v2/frames",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v1",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ape",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/wavpack",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/trueaudio",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff/aiff",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff/wav",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mod",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/s3m",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/it",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/xm",
+					"./sources/taglib/**",
 					/usr/local/include,
+					"./sources/bindings/**",
+					./,
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/../TagLib/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1534,7 +1721,7 @@
 		0B2CA9E91CF0596000ABFC95 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1575,34 +1762,10 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/taglib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/toolkit",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/asf",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpc",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mp4",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/vorbis",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/speex",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/opus",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v2",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v2/frames",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v1",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ape",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/wavpack",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/trueaudio",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff/aiff",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff/wav",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mod",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/s3m",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/it",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/xm",
+					"./sources/taglib/**",
 					/usr/local/include,
+					"./sources/bindings/**",
+					./,
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/../TagLib/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1632,7 +1795,7 @@
 		0B2CA9EA1CF0596000ABFC95 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1674,34 +1837,10 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/taglib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/toolkit",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/asf",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpc",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mp4",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/vorbis",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/speex",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/opus",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v2",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v2/frames",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v1",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ape",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/wavpack",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/trueaudio",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff/aiff",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff/wav",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mod",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/s3m",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/it",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/xm",
+					"./sources/taglib/**",
 					/usr/local/include,
+					"./sources/bindings/**",
+					./,
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/../TagLib/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1776,22 +1915,10 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/toolkit",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/asf",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/mpeg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/ogg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/ogg/vorbis",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/ogg/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/mpc",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/mp4",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/mpeg/id3v2",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/mpeg/id3v2/frames",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/wavpack",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/ogg/speex",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/trueaudio",
+					"./sources/taglib/**",
+					/usr/local/include,
+					"./sources/bindings/**",
+					./,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -1801,7 +1928,8 @@
 				PRODUCT_NAME = tag_c;
 				SECTORDER_FLAGS = "";
 				SYMROOT = build;
-				USE_HEADERMAP = NO;
+				USER_HEADER_SEARCH_PATHS = "$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts";
+				USE_HEADERMAP = YES;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -1827,34 +1955,10 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/taglib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/toolkit",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/asf",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpc",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mp4",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/vorbis",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/speex",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/opus",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v2",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v2/frames",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v1",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ape",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/wavpack",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/trueaudio",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff/aiff",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff/wav",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mod",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/s3m",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/it",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/xm",
+					"./sources/taglib/**",
 					/usr/local/include,
+					"./sources/bindings/**",
+					./,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -1862,9 +1966,11 @@
 				OTHER_LIBTOOLFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = tag;
+				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				SYMROOT = build;
-				USE_HEADERMAP = NO;
+				USER_HEADER_SEARCH_PATHS = "$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts";
+				USE_HEADERMAP = YES;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -1890,34 +1996,10 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/taglib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/toolkit",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/asf",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpc",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mp4",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/vorbis",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/speex",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/opus",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v2",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v2/frames",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v1",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ape",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/wavpack",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/trueaudio",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff/aiff",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff/wav",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mod",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/s3m",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/it",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/xm",
+					"./sources/taglib/**",
 					/usr/local/include,
+					"./sources/bindings/**",
+					./,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -1925,9 +2007,11 @@
 				OTHER_LIBTOOLFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = tag;
+				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				SYMROOT = build;
-				USE_HEADERMAP = NO;
+				USER_HEADER_SEARCH_PATHS = "$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts";
+				USE_HEADERMAP = YES;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -1953,22 +2037,10 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/toolkit",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/asf",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/mpeg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/ogg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/ogg/vorbis",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/ogg/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/mpc",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/mp4",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/mpeg/id3v2",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/mpeg/id3v2/frames",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/wavpack",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/ogg/speex",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/trueaudio",
+					"./sources/taglib/**",
+					/usr/local/include,
+					"./sources/bindings/**",
+					./,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -1978,7 +2050,8 @@
 				PRODUCT_NAME = tag_c;
 				SECTORDER_FLAGS = "";
 				SYMROOT = build;
-				USE_HEADERMAP = NO;
+				USER_HEADER_SEARCH_PATHS = "$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts";
+				USE_HEADERMAP = YES;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -2004,22 +2077,10 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/toolkit",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/asf",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/mpeg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/ogg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/ogg/vorbis",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/ogg/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/mpc",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/mp4",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/mpeg/id3v2",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/mpeg/id3v2/frames",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/wavpack",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/ogg/speex",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/trueaudio",
+					"./sources/taglib/**",
+					/usr/local/include,
+					"./sources/bindings/**",
+					./,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -2029,7 +2090,8 @@
 				PRODUCT_NAME = tag_c;
 				SECTORDER_FLAGS = "";
 				SYMROOT = build;
-				USE_HEADERMAP = NO;
+				USER_HEADER_SEARCH_PATHS = "$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts";
+				USE_HEADERMAP = YES;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -2055,34 +2117,10 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/taglib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/toolkit",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/asf",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpc",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mp4",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/vorbis",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/speex",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/opus",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v2",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v2/frames",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v1",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ape",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/wavpack",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/trueaudio",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff/aiff",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff/wav",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mod",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/s3m",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/it",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/xm",
+					"./sources/taglib/**",
 					/usr/local/include,
+					"./sources/bindings/**",
+					./,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -2090,9 +2128,11 @@
 				OTHER_LIBTOOLFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = tag;
+				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				SYMROOT = build;
-				USE_HEADERMAP = NO;
+				USER_HEADER_SEARCH_PATHS = "$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts";
+				USE_HEADERMAP = YES;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -2118,34 +2158,10 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/taglib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/toolkit",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/asf",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpc",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mp4",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/vorbis",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/speex",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ogg/opus",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v2",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v2/frames",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mpeg/id3v1",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/ape",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/wavpack",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/trueaudio",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff/aiff",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/riff/wav",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/mod",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/s3m",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/it",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/taglib/xm",
+					"./sources/taglib/**",
 					/usr/local/include,
+					"./sources/bindings/**",
+					./,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -2153,9 +2169,11 @@
 				OTHER_LIBTOOLFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = tag;
+				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				SYMROOT = build;
-				USE_HEADERMAP = NO;
+				USER_HEADER_SEARCH_PATHS = "$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts";
+				USE_HEADERMAP = YES;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -2181,22 +2199,10 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/toolkit",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/asf",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/mpeg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/ogg",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/ogg/vorbis",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/ogg/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/flac",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/mpc",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/mp4",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/mpeg/id3v2",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/mpeg/id3v2/frames",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/wavpack",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/ogg/speex",
-					"/Users/perfaram/Downloads/Audio-Frameworks/TagLib/sources/bindings/c/../../taglib/trueaudio",
+					"./sources/taglib/**",
+					/usr/local/include,
+					"./sources/bindings/**",
+					./,
 				);
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
@@ -2206,7 +2212,8 @@
 				PRODUCT_NAME = tag_c;
 				SECTORDER_FLAGS = "";
 				SYMROOT = build;
-				USE_HEADERMAP = NO;
+				USER_HEADER_SEARCH_PATHS = "$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts";
+				USE_HEADERMAP = YES;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
