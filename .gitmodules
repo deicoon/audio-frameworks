@@ -13,3 +13,6 @@
 [submodule "TagLib/sources"]
 	path = TagLib/sources
 	url = https://github.com/taglib/taglib.git
+[submodule "Chromaprint/sources"]
+	path = Chromaprint/sources
+	url = https://github.com/acoustid/chromaprint.git
