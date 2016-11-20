@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B2ECE141DE20CF00051C0F8 /* audio_processor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D4331DE204B9001AF279 /* audio_processor.cpp */; };
+		0B2ECE151DE20CF00051C0F8 /* base64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D4341DE204B9001AF279 /* base64.cpp */; };
+		0B2ECE161DE20CF00051C0F8 /* chroma_filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D4351DE204B9001AF279 /* chroma_filter.cpp */; };
+		0B2ECE171DE20CF00051C0F8 /* chroma_resampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D4361DE204B9001AF279 /* chroma_resampler.cpp */; };
+		0B2ECE181DE20CF00051C0F8 /* chroma.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D4371DE204B9001AF279 /* chroma.cpp */; };
+		0B2ECE191DE20CF00051C0F8 /* chromaprint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D4381DE204B9001AF279 /* chromaprint.cpp */; };
+		0B2ECE1A1DE20CF00051C0F8 /* fft_lib_vdsp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D43C1DE204B9001AF279 /* fft_lib_vdsp.cpp */; };
+		0B2ECE1B1DE20CF00051C0F8 /* fft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D43D1DE204B9001AF279 /* fft.cpp */; };
+		0B2ECE1C1DE20CF00051C0F8 /* filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D43E1DE204B9001AF279 /* filter.cpp */; };
+		0B2ECE1D1DE20CF00051C0F8 /* fingerprint_calculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D43F1DE204B9001AF279 /* fingerprint_calculator.cpp */; };
+		0B2ECE1E1DE20CF00051C0F8 /* fingerprint_compressor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D4401DE204B9001AF279 /* fingerprint_compressor.cpp */; };
+		0B2ECE1F1DE20CF00051C0F8 /* fingerprint_decompressor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D4411DE204B9001AF279 /* fingerprint_decompressor.cpp */; };
+		0B2ECE201DE20CF00051C0F8 /* fingerprinter_configuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D4421DE204B9001AF279 /* fingerprinter_configuration.cpp */; };
+		0B2ECE211DE20CF00051C0F8 /* fingerprinter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D4431DE204B9001AF279 /* fingerprinter.cpp */; };
+		0B2ECE221DE20CF00051C0F8 /* foo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D4441DE204B9001AF279 /* foo.cpp */; };
+		0B2ECE231DE20CF00051C0F8 /* image_builder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D4451DE204B9001AF279 /* image_builder.cpp */; };
+		0B2ECE241DE20CF00051C0F8 /* integral_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D4461DE204B9001AF279 /* integral_image.cpp */; };
+		0B2ECE251DE20CF00051C0F8 /* lloyds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D4471DE204B9001AF279 /* lloyds.cpp */; };
+		0B2ECE261DE20CF00051C0F8 /* silence_remover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D4481DE204B9001AF279 /* silence_remover.cpp */; };
+		0B2ECE271DE20CF00051C0F8 /* simhash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D4491DE204B9001AF279 /* simhash.cpp */; };
+		0B2ECE281DE20CF00051C0F8 /* spectral_centroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D44B1DE204B9001AF279 /* spectral_centroid.cpp */; };
+		0B2ECE291DE20CF00051C0F8 /* spectrum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B54D44C1DE204B9001AF279 /* spectrum.cpp */; };
 		0B54D44D1DE204B9001AF279 /* audio_consumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B54D4091DE204B9001AF279 /* audio_consumer.h */; };
 		0B54D44E1DE204B9001AF279 /* audio_processor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B54D40A1DE204B9001AF279 /* audio_processor.h */; };
 		0B54D44F1DE204B9001AF279 /* base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B54D40B1DE204B9001AF279 /* base64.h */; };
@@ -72,6 +94,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B2ECE101DE20CDF0051C0F8 /* libchromaprint.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libchromaprint.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B54D3FE1DE20471001AF279 /* Chromaprint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Chromaprint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B54D4021DE20471001AF279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B54D4091DE204B9001AF279 /* audio_consumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = audio_consumer.h; path = sources/src/audio_consumer.h; sourceTree = SOURCE_ROOT; };
@@ -139,6 +162,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0B2ECE0D1DE20CDF0051C0F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0B54D3FA1DE20471001AF279 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -164,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				0B54D3FE1DE20471001AF279 /* Chromaprint.framework */,
+				0B2ECE101DE20CDF0051C0F8 /* libchromaprint.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -264,6 +295,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0B2ECE0E1DE20CDF0051C0F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0B54D3FB1DE20471001AF279 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -312,6 +350,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0B2ECE0F1DE20CDF0051C0F8 /* chromaprint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B2ECE131DE20CDF0051C0F8 /* Build configuration list for PBXNativeTarget "chromaprint" */;
+			buildPhases = (
+				0B2ECE0C1DE20CDF0051C0F8 /* Sources */,
+				0B2ECE0D1DE20CDF0051C0F8 /* Frameworks */,
+				0B2ECE0E1DE20CDF0051C0F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chromaprint;
+			productName = libchromaprint;
+			productReference = 0B2ECE101DE20CDF0051C0F8 /* libchromaprint.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		0B54D3FD1DE20471001AF279 /* Chromaprint */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B54D4061DE20471001AF279 /* Build configuration list for PBXNativeTarget "Chromaprint" */;
@@ -340,6 +395,10 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = acoustid;
 				TargetAttributes = {
+					0B2ECE0F1DE20CDF0051C0F8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
 					0B54D3FD1DE20471001AF279 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
@@ -359,6 +418,7 @@
 			projectRoot = "";
 			targets = (
 				0B54D3FD1DE20471001AF279 /* Chromaprint */,
+				0B2ECE0F1DE20CDF0051C0F8 /* chromaprint */,
 			);
 		};
 /* End PBXProject section */
@@ -390,6 +450,35 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0B2ECE0C1DE20CDF0051C0F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2ECE141DE20CF00051C0F8 /* audio_processor.cpp in Sources */,
+				0B2ECE151DE20CF00051C0F8 /* base64.cpp in Sources */,
+				0B2ECE161DE20CF00051C0F8 /* chroma_filter.cpp in Sources */,
+				0B2ECE171DE20CF00051C0F8 /* chroma_resampler.cpp in Sources */,
+				0B2ECE181DE20CF00051C0F8 /* chroma.cpp in Sources */,
+				0B2ECE191DE20CF00051C0F8 /* chromaprint.cpp in Sources */,
+				0B2ECE1A1DE20CF00051C0F8 /* fft_lib_vdsp.cpp in Sources */,
+				0B2ECE1B1DE20CF00051C0F8 /* fft.cpp in Sources */,
+				0B2ECE1C1DE20CF00051C0F8 /* filter.cpp in Sources */,
+				0B2ECE1D1DE20CF00051C0F8 /* fingerprint_calculator.cpp in Sources */,
+				0B2ECE1E1DE20CF00051C0F8 /* fingerprint_compressor.cpp in Sources */,
+				0B2ECE1F1DE20CF00051C0F8 /* fingerprint_decompressor.cpp in Sources */,
+				0B2ECE201DE20CF00051C0F8 /* fingerprinter_configuration.cpp in Sources */,
+				0B2ECE211DE20CF00051C0F8 /* fingerprinter.cpp in Sources */,
+				0B2ECE221DE20CF00051C0F8 /* foo.cpp in Sources */,
+				0B2ECE231DE20CF00051C0F8 /* image_builder.cpp in Sources */,
+				0B2ECE241DE20CF00051C0F8 /* integral_image.cpp in Sources */,
+				0B2ECE251DE20CF00051C0F8 /* lloyds.cpp in Sources */,
+				0B2ECE261DE20CF00051C0F8 /* silence_remover.cpp in Sources */,
+				0B2ECE271DE20CF00051C0F8 /* simhash.cpp in Sources */,
+				0B2ECE281DE20CF00051C0F8 /* spectral_centroid.cpp in Sources */,
+				0B2ECE291DE20CF00051C0F8 /* spectrum.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0B54D3F91DE20471001AF279 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -422,6 +511,41 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0B2ECE111DE20CDF0051C0F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					WITH_VDSP,
+					HAVE_ROUND,
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					./sources/src,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts";
+			};
+			name = Debug;
+		};
+		0B2ECE121DE20CDF0051C0F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					WITH_VDSP,
+					HAVE_ROUND,
+				);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					./sources/src,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts";
+			};
+			name = Release;
+		};
 		0B54D4041DE20471001AF279 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -573,6 +697,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0B2ECE131DE20CDF0051C0F8 /* Build configuration list for PBXNativeTarget "chromaprint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2ECE111DE20CDF0051C0F8 /* Debug */,
+				0B2ECE121DE20CDF0051C0F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		0B54D3F81DE20471001AF279 /* Build configuration list for PBXProject "Chromaprint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
