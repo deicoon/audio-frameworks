@@ -3,7 +3,8 @@ MacOS/iOS static frameworks and libraries:
 * Ogg
 * Opus
 * OpusFile
-* TagLib
+* TagLib (LGPL lib for reading and editing metadata of several audio formats)
+* Chromaprint (LGPL lib for generating and matching audio fingerprints – especially used by AcoustID)
 
 Instructions
 -------
