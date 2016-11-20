@@ -478,8 +478,7 @@
 		075ED3012CEF4412B0040CD1 /* id3v2extendedheader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = id3v2extendedheader.h; path = taglib/mpeg/id3v2/id3v2extendedheader.h; sourceTree = SOURCE_ROOT; };
 		08226E691023479B9DBCEE0A /* popularimeterframe.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = popularimeterframe.cpp; path = taglib/mpeg/id3v2/frames/popularimeterframe.cpp; sourceTree = SOURCE_ROOT; };
 		0B2CA9E21CF0596000ABFC95 /* TagLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TagLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B2CA9E61CF0596000ABFC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B2CAAC51CF0B75F00ABFC95 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		0B2CA9E61CF0596000ABFC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		0B7B825E1DE1E54A0081A38D /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../config.h; sourceTree = "<group>"; };
 		0BBDF74C45A3491EACC98E52 /* mpegproperties.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mpegproperties.h; path = taglib/mpeg/mpegproperties.h; sourceTree = SOURCE_ROOT; };
 		0DA1AB4D85FB42A291398E3D /* id3v2frame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = id3v2frame.cpp; path = taglib/mpeg/id3v2/id3v2frame.cpp; sourceTree = SOURCE_ROOT; };
@@ -831,7 +830,6 @@
 		46A208BBE5FA44A580F314F9 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				0B2CAAC51CF0B75F00ABFC95 /* CMakeLists.txt */,
 				0B7B825E1DE1E54A0081A38D /* config.h */,
 				7B2B5265C9854F208389008D /* Source Files */,
 				0C76F16B238E49159D1C2A21 /* Header Files */,
@@ -1625,7 +1623,7 @@
 					"./sources/bindings/**",
 					./,
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/../TagLib/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -1696,7 +1694,7 @@
 					"./sources/bindings/**",
 					./,
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/../TagLib/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -1767,7 +1765,7 @@
 					"./sources/bindings/**",
 					./,
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/../TagLib/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -1842,7 +1840,7 @@
 					"./sources/bindings/**",
 					./,
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/../TagLib/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
